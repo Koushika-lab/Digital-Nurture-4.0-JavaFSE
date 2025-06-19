@@ -1,4 +1,3 @@
-package ImplementingtheProxyPattern;
 public class RealImage implements Image {
     private String filename;
     public RealImage(String fn) {
