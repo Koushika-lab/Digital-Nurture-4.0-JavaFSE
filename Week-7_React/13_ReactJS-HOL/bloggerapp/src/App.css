@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row; /* Row-wise layout */
+  justify-content: space-around; /* Add spacing between the sections */
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  flex-wrap: wrap; /* Make it responsive on small screens */
+}
+
+.section {
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px; /* Fixed width for each section */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Background colors for each section */
+.st2 {
+  background-color: #e3f2fd;
+}
+
+.v1 {
+  background-color: #fff9c4;
+}
+
+.mystyle1 {
+  background-color: #c8e6c9;
+}
